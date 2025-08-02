@@ -1,0 +1,58 @@
+python number guessing game 
+
+# for guessing the number there is two ways 
+1) the user can think of a number and from certain 
+information the computer has to guess the users number
+
+2) the user has to guess the random number that computer
+generates itself.
+--> for this aproach certain things that we need in code are:
+1) a code for generating random number and it should be added in a variable
+   - import random ( this is a module(module is something ie a file that contains certain program writen by other)
+ which contains certain functions,classes,variables
+allows user to use functions like random.ranint(a,b)
+this allows  the program to generate a random value between a and b.
+
+2) attempt variable to count no of attempts
+( we use this to properly record the attempts of user to guess a number)
+
+3) number variable for user to guess  the number
+use this to get value from the user
+
+4) loop for suggesting user if they are near that number
+ we use a ( while True ) because:
+- it allows user to run loop until it is stopped manually ie.brake
+- use it when we dont know how many times a loop must continue.
+
+also we use a try block because:
+- we dont know how many trial  we need to guess a number so 
+try is an error handeling block that handels the failuer in a
+controlled manner(ie if a user enters abc in program it crashes but with the use of try 
+it gives a proper message with help of ( except ValueError block)
+
+5)  proper message for guessing and  retry
+
+6) end
+
+ 
+# CONCEPT COVERED 
+-Input/Output
+
+-Loops
+
+-Conditionals
+
+-Random numbers
+
+-Functions (optional):
+def random_num_guess() we have used this function 
+as its a block of code that performs certain task which allows us to recall it from any where from program.
+
+
+
+
+
+
+
+
+
